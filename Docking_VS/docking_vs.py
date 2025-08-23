@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # ===============================
-# Program 1: Molecular Docking with AutoDock Vina
+# Program: Molecular Docking with AutoDock Vina
 # ===============================
 
 #--------------------------------
