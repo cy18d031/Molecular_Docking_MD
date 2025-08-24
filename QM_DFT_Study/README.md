@@ -1,6 +1,4 @@
-Perfect 👍 — here’s an **expanded version for the FreeEnergy subfolder**, still simple but giving enough professional weight:
 
----
 
 # Binding Free Energy Estimation (DFT + Solvation)
 
@@ -34,4 +32,5 @@ DFT adds a **quantum-level refinement**, incorporating **electronic structure** 
 ## Note on Alternatives
 
 Other approaches exist for free energy estimation, such as **MM-GBSA** (widely used in pharma).
+
 
