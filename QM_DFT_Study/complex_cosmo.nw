@@ -1,0 +1,21 @@
+start complex_cosmo
+memory 4000 mb
+
+geometry units angstroms
+  # Insert coordinates of protein–ligand complex here
+end
+
+basis
+  * library 6-31g*
+end
+
+dft
+  xc b3lyp
+  mult 1
+end
+
+cosmo
+  dielectric 80.4  # water
+end
+
+task dft optimize

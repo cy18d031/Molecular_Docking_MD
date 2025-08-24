@@ -1,0 +1,7 @@
+%chk=complex.chk
+# B3LYP/6-31G(d) Opt SCRF=(CPCM,Solvent=Water)
+
+Receptor–ligand complex in water (CPCM solvation)
+
+0 1
+[Insert coordinates of protein–ligand complex here]
