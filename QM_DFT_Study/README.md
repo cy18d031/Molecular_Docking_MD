@@ -20,7 +20,13 @@ DFT adds a **quantum-level refinement**, incorporating **electronic structure** 
 * **Other solvation models** – COSMO-RS (ADF) or PCM variants.
 
 ---
+## Files
 
+* **complex_cpcm.gjf** - Gaussian input (B3LYP/6-31G*, CPCM solvation in water).
+* **complex_cosmo.nw** - NWChem input (B3LYP/6-31G*, COSMO solvation in water).
+
+The placeholder line:[Insert coordinates of protein–ligand complex here] needs to be replaced with the actual coordinates of the receptor–ligand system (from docking/MD).
+---
 ## Output
 
 * Optimized ligand geometry in solvent.
@@ -32,5 +38,6 @@ DFT adds a **quantum-level refinement**, incorporating **electronic structure** 
 ## Note on Alternatives
 
 Other approaches exist for free energy estimation, such as **MM-GBSA** (widely used in pharma).
+
 
 
